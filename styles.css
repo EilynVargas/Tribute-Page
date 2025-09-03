@@ -1,0 +1,116 @@
+h1{
+  font-family: "Bodoni Moda", serif;
+}
+
+.background #image{
+  position:relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 600px;
+  z-index: -1;
+  opacity: 0.6;
+  object-fit: cover;
+}
+
+.background{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  max-height: 600px;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.background h1{
+  margin: 0 0 10px 20px;
+  font-size: 3.75rem;
+  position: absolute;
+  color: white;
+  font-weight: 500;
+  font-style: medium;
+}
+
+.content, p{
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.content{
+  margin: 30px 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+#tribute-info{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#tribute-info h1{
+  padding: 0 40px;
+  margin: 0;
+  font-size: 2.75rem;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#tribute-info p{
+  padding: 0 40px;
+  min-width: 200px;
+  text-align: justify;
+}
+
+figure img{
+  display: block;
+  width: 100%;
+  height: 90vh;
+}
+
+.quote-content{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 30px 180px;
+}
+
+.line{
+  width: 70px;
+  height: 5px;
+  background-color: black;
+}
+
+#quote{
+  margin-bottom: 10px;
+  width: 20%;
+  min-width: 50%;
+}
+
+footer{
+  padding: 10px 30px;
+  background-color: black;
+}
+
+footer p{
+  color: white;
+}
+
+a:visited{
+  color: #b4928c;
+}
+
+a:hover{
+  color: #99565d;
+}
+
+.warning-text{
+  font-size: 12px;
+}
